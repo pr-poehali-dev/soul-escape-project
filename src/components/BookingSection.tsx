@@ -1,15 +1,6 @@
-import { useState } from "react";
 import Icon from "@/components/ui/icon";
 
 export default function BookingSection() {
-  const [formData, setFormData] = useState({ name: "", phone: "", message: "" });
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubmitted(true);
-  };
-
   return (
     <section id="booking" className="py-24 px-6 bg-[#EDE4D3]">
       <div className="max-w-4xl mx-auto">
@@ -47,60 +38,50 @@ export default function BookingSection() {
             </div>
           </div>
 
-          <div className="bg-[#F5EFE4] rounded-2xl p-8 shadow-sm">
-            {submitted ? (
-              <div className="text-center py-8">
-                <div className="w-14 h-14 rounded-full bg-[#C8A882] flex items-center justify-center mx-auto mb-4">
-                  <Icon name="Check" size={24} className="text-[#2D1F14]" />
-                </div>
-                <h3 className="font-cormorant text-2xl text-[#5C3D2E] mb-2">Заявка отправлена!</h3>
-                <p className="text-[#5C3D2E]/70 font-light">Мы свяжемся с вами в ближайшее время и расскажем все детали.</p>
-              </div>
-            ) : (
-              <form onSubmit={handleSubmit} className="space-y-5">
-                <div>
-                  <label className="text-[#5C3D2E] text-sm font-medium block mb-2">Ваше имя</label>
-                  <input
-                    type="text"
-                    required
-                    value={formData.name}
-                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    placeholder="Как вас зовут?"
-                    className="w-full bg-[#EDE4D3] border border-[#D9CAAF] rounded-xl px-4 py-3 text-[#2D1F14] placeholder-[#8B7355]/60 outline-none focus:border-[#C8A882] transition-colors font-light"
-                  />
+          <div className="bg-[#F5EFE4] rounded-2xl p-8 shadow-sm flex flex-col justify-center">
+            <p className="font-cormorant text-2xl text-[#5C3D2E] mb-2">Для бронирования пишите нам</p>
+            <p className="text-[#5C3D2E]/70 font-light text-sm mb-8">Ответим быстро и расскажем все детали</p>
+            <div className="flex flex-col gap-4">
+              <a
+                href="https://max.ru/+79085144500"
+                className="flex items-center gap-4 bg-[#EDE4D3] hover:bg-[#D9CAAF] transition-colors rounded-xl px-5 py-4"
+              >
+                <div className="w-10 h-10 rounded-full bg-[#5C3D2E] flex items-center justify-center flex-shrink-0">
+                  <Icon name="Send" size={18} className="text-[#F5EFE4]" />
                 </div>
                 <div>
-                  <label className="text-[#5C3D2E] text-sm font-medium block mb-2">Телефон</label>
-                  <input
-                    type="tel"
-                    required
-                    value={formData.phone}
-                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                    placeholder="+7 (___) ___-__-__"
-                    className="w-full bg-[#EDE4D3] border border-[#D9CAAF] rounded-xl px-4 py-3 text-[#2D1F14] placeholder-[#8B7355]/60 outline-none focus:border-[#C8A882] transition-colors font-light"
-                  />
+                  <p className="text-[#5C3D2E] font-medium text-sm">Max</p>
+                  <p className="text-[#8B7355] text-xs font-light">Написать в Max</p>
+                </div>
+                <Icon name="ChevronRight" size={16} className="text-[#C8A882] ml-auto" />
+              </a>
+              <a
+                href="https://wa.me/79085144500"
+                className="flex items-center gap-4 bg-[#EDE4D3] hover:bg-[#D9CAAF] transition-colors rounded-xl px-5 py-4"
+              >
+                <div className="w-10 h-10 rounded-full bg-[#5C3D2E] flex items-center justify-center flex-shrink-0">
+                  <Icon name="MessageSquare" size={18} className="text-[#F5EFE4]" />
                 </div>
                 <div>
-                  <label className="text-[#5C3D2E] text-sm font-medium block mb-2">Сообщение (необязательно)</label>
-                  <textarea
-                    value={formData.message}
-                    onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    placeholder="Вопросы, пожелания..."
-                    rows={3}
-                    className="w-full bg-[#EDE4D3] border border-[#D9CAAF] rounded-xl px-4 py-3 text-[#2D1F14] placeholder-[#8B7355]/60 outline-none focus:border-[#C8A882] transition-colors font-light resize-none"
-                  />
+                  <p className="text-[#5C3D2E] font-medium text-sm">WhatsApp</p>
+                  <p className="text-[#8B7355] text-xs font-light">Написать в WhatsApp</p>
                 </div>
-                <button
-                  type="submit"
-                  className="w-full bg-[#5C3D2E] text-[#F5EFE4] py-4 rounded-xl font-medium hover:bg-[#8B7355] transition-colors"
-                >
-                  Отправить заявку
-                </button>
-                <p className="text-[#8B7355] text-xs text-center font-light">
-                  Нажимая кнопку, вы соглашаетесь на обработку персональных данных
-                </p>
-              </form>
-            )}
+                <Icon name="ChevronRight" size={16} className="text-[#C8A882] ml-auto" />
+              </a>
+              <a
+                href="https://t.me/+79085144500"
+                className="flex items-center gap-4 bg-[#EDE4D3] hover:bg-[#D9CAAF] transition-colors rounded-xl px-5 py-4"
+              >
+                <div className="w-10 h-10 rounded-full bg-[#5C3D2E] flex items-center justify-center flex-shrink-0">
+                  <Icon name="MessageCircle" size={18} className="text-[#F5EFE4]" />
+                </div>
+                <div>
+                  <p className="text-[#5C3D2E] font-medium text-sm">Telegram</p>
+                  <p className="text-[#8B7355] text-xs font-light">Написать в Telegram</p>
+                </div>
+                <Icon name="ChevronRight" size={16} className="text-[#C8A882] ml-auto" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
