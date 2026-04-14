@@ -50,9 +50,7 @@ export default function Index() {
         </div>
         <div className="relative z-10 max-w-6xl mx-auto px-6 pb-20 pt-32 w-full">
           <div className="max-w-2xl">
-            <p className="text-[#C8A882] text-sm tracking-widest uppercase mb-4 animate-fade-up delay-1">
-              Двухдневная экспедиция
-            </p>
+            <p className="text-[#C8A882] text-sm tracking-widest uppercase mb-4 animate-fade-up delay-1"></p>
             <h1 className="font-cormorant text-5xl md:text-7xl font-light text-white leading-tight mb-6 animate-fade-up delay-2">
               Твоя душа<br />уже просит
             </h1>
