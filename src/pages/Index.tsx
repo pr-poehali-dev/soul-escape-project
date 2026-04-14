@@ -472,7 +472,15 @@ export default function Index() {
             </a>
             <a href="https://t.me/+79085144500" className="flex items-center gap-2 text-[#D9C8A8] hover:text-[#C8A882] transition-colors font-light">
               <Icon name="MessageCircle" size={15} />
-              <span>Написать в Telegram</span>
+              <span>Telegram</span>
+            </a>
+            <a href="https://wa.me/79085144500" className="flex items-center gap-2 text-[#D9C8A8] hover:text-[#C8A882] transition-colors font-light">
+              <Icon name="MessageSquare" size={15} />
+              <span>WhatsApp</span>
+            </a>
+            <a href="https://max.ru/+79085144500" className="flex items-center gap-2 text-[#D9C8A8] hover:text-[#C8A882] transition-colors font-light">
+              <Icon name="Send" size={15} />
+              <span>Max</span>
             </a>
           </div>
         </div>
