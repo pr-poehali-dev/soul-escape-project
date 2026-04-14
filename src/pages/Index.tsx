@@ -466,13 +466,13 @@ export default function Index() {
             <p className="text-[#C8A882]/70 text-sm font-light">Места силы Республики Крым</p>
           </div>
           <div className="flex flex-col gap-3 text-center md:text-right">
-            <a href="tel:+7" className="flex items-center gap-2 text-[#D9C8A8] hover:text-[#C8A882] transition-colors font-light">
+            <a href="tel:+79085144500" className="flex items-center gap-2 text-[#D9C8A8] hover:text-[#C8A882] transition-colors font-light">
               <Icon name="Phone" size={15} />
-              <span>Связаться с нами</span>
+              <span>+7 (908) 514-45-00</span>
             </a>
-            <a href="https://t.me/" className="flex items-center gap-2 text-[#D9C8A8] hover:text-[#C8A882] transition-colors font-light">
+            <a href="https://t.me/+79085144500" className="flex items-center gap-2 text-[#D9C8A8] hover:text-[#C8A882] transition-colors font-light">
               <Icon name="MessageCircle" size={15} />
-              <span>Telegram</span>
+              <span>Написать в Telegram</span>
             </a>
           </div>
         </div>
