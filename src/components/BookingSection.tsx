@@ -43,7 +43,7 @@ export default function BookingSection() {
             <p className="text-[#5C3D2E]/70 font-light text-sm mb-8">Ответим быстро и расскажем все детали</p>
             <div className="flex flex-col gap-4">
               <a
-                href="https://max.ru/+79085144500"
+                href="https://max.ru/u/f9LHodD0cOKNVLV0jMH-NM-o3dah_JFb1AuQj18bgnts4rUCBvpIYoVn8uI"
                 className="flex items-center gap-4 bg-[#EDE4D3] hover:bg-[#D9CAAF] transition-colors rounded-xl px-5 py-4"
               >
                 <div className="w-10 h-10 rounded-full bg-[#5C3D2E] flex items-center justify-center flex-shrink-0">
