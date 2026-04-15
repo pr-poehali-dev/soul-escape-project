@@ -172,13 +172,25 @@ export default function Index() {
               <Icon name="Phone" size={15} />
               <span>+7 (908) 514-45-00</span>
             </a>
+            <a href="tel:+79257771555" className="flex items-center gap-2 text-[#D9C8A8] hover:text-[#C8A882] transition-colors font-light">
+              <Icon name="Phone" size={15} />
+              <span>+7 (925) 777-15-55</span>
+            </a>
             <a href="https://t.me/+79085144500" className="flex items-center gap-2 text-[#D9C8A8] hover:text-[#C8A882] transition-colors font-light">
               <Icon name="MessageCircle" size={15} />
-              <span>Telegram</span>
+              <span>Telegram +7 (908) 514-45-00</span>
+            </a>
+            <a href="https://t.me/+79257771555" className="flex items-center gap-2 text-[#D9C8A8] hover:text-[#C8A882] transition-colors font-light">
+              <Icon name="MessageCircle" size={15} />
+              <span>Telegram +7 (925) 777-15-55</span>
             </a>
             <a href="https://wa.me/79085144500" className="flex items-center gap-2 text-[#D9C8A8] hover:text-[#C8A882] transition-colors font-light">
               <Icon name="MessageSquare" size={15} />
-              <span>WhatsApp</span>
+              <span>WhatsApp +7 (908) 514-45-00</span>
+            </a>
+            <a href="https://wa.me/79257771555" className="flex items-center gap-2 text-[#D9C8A8] hover:text-[#C8A882] transition-colors font-light">
+              <Icon name="MessageSquare" size={15} />
+              <span>WhatsApp +7 (925) 777-15-55</span>
             </a>
             <a href="https://max.ru/+79085144500" className="flex items-center gap-2 text-[#D9C8A8] hover:text-[#C8A882] transition-colors font-light">
               <Icon name="Send" size={15} />

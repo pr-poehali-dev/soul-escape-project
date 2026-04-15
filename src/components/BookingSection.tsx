@@ -50,7 +50,20 @@ export default function BookingSection() {
                   <Icon name="MessageSquare" size={18} className="text-[#F5EFE4]" />
                 </div>
                 <div>
-                  <p className="text-[#5C3D2E] font-medium text-sm">WhatsApp</p>
+                  <p className="text-[#5C3D2E] font-medium text-sm">WhatsApp +7 (908) 514-45-00</p>
+                  <p className="text-[#8B7355] text-xs font-light">Написать в WhatsApp</p>
+                </div>
+                <Icon name="ChevronRight" size={16} className="text-[#C8A882] ml-auto" />
+              </a>
+              <a
+                href="https://wa.me/79257771555"
+                className="flex items-center gap-4 bg-[#EDE4D3] hover:bg-[#D9CAAF] transition-colors rounded-xl px-5 py-4"
+              >
+                <div className="w-10 h-10 rounded-full bg-[#5C3D2E] flex items-center justify-center flex-shrink-0">
+                  <Icon name="MessageSquare" size={18} className="text-[#F5EFE4]" />
+                </div>
+                <div>
+                  <p className="text-[#5C3D2E] font-medium text-sm">WhatsApp +7 (925) 777-15-55</p>
                   <p className="text-[#8B7355] text-xs font-light">Написать в WhatsApp</p>
                 </div>
                 <Icon name="ChevronRight" size={16} className="text-[#C8A882] ml-auto" />
@@ -63,7 +76,20 @@ export default function BookingSection() {
                   <Icon name="MessageCircle" size={18} className="text-[#F5EFE4]" />
                 </div>
                 <div>
-                  <p className="text-[#5C3D2E] font-medium text-sm">Telegram</p>
+                  <p className="text-[#5C3D2E] font-medium text-sm">Telegram +7 (908) 514-45-00</p>
+                  <p className="text-[#8B7355] text-xs font-light">Написать в Telegram</p>
+                </div>
+                <Icon name="ChevronRight" size={16} className="text-[#C8A882] ml-auto" />
+              </a>
+              <a
+                href="https://t.me/+79257771555"
+                className="flex items-center gap-4 bg-[#EDE4D3] hover:bg-[#D9CAAF] transition-colors rounded-xl px-5 py-4"
+              >
+                <div className="w-10 h-10 rounded-full bg-[#5C3D2E] flex items-center justify-center flex-shrink-0">
+                  <Icon name="MessageCircle" size={18} className="text-[#F5EFE4]" />
+                </div>
+                <div>
+                  <p className="text-[#5C3D2E] font-medium text-sm">Telegram +7 (925) 777-15-55</p>
                   <p className="text-[#8B7355] text-xs font-light">Написать в Telegram</p>
                 </div>
                 <Icon name="ChevronRight" size={16} className="text-[#C8A882] ml-auto" />
