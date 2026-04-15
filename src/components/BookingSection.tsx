@@ -43,19 +43,6 @@ export default function BookingSection() {
             <p className="text-[#5C3D2E]/70 font-light text-sm mb-8">Ответим быстро и расскажем все детали</p>
             <div className="flex flex-col gap-4">
               <a
-                href="https://max.ru/u/f9LHodD0cOKNVLV0jMH-NM-o3dah_JFb1AuQj18bgnts4rUCBvpIYoVn8uI"
-                className="flex items-center gap-4 bg-[#EDE4D3] hover:bg-[#D9CAAF] transition-colors rounded-xl px-5 py-4"
-              >
-                <div className="w-10 h-10 rounded-full bg-[#5C3D2E] flex items-center justify-center flex-shrink-0">
-                  <Icon name="Send" size={18} className="text-[#F5EFE4]" />
-                </div>
-                <div>
-                  <p className="text-[#5C3D2E] font-medium text-sm">Max</p>
-                  <p className="text-[#8B7355] text-xs font-light">Написать в Max</p>
-                </div>
-                <Icon name="ChevronRight" size={16} className="text-[#C8A882] ml-auto" />
-              </a>
-              <a
                 href="https://wa.me/79085144500"
                 className="flex items-center gap-4 bg-[#EDE4D3] hover:bg-[#D9CAAF] transition-colors rounded-xl px-5 py-4"
               >
