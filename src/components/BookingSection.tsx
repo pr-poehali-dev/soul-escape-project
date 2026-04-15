@@ -39,7 +39,7 @@ export default function BookingSection() {
           </div>
 
           <div className="bg-[#F5EFE4] rounded-2xl p-8 shadow-sm flex flex-col justify-center">
-            <p className="font-cormorant text-2xl text-[#5C3D2E] mb-2">Для бронирования пишите нам</p>
+            <p className="font-cormorant text-2xl text-[#5C3D2E] mb-2 font-medium">Для бронирования пишите нам</p>
             <p className="text-[#5C3D2E]/70 font-light text-sm mb-8">Ответим быстро и расскажем все детали</p>
             <div className="flex flex-col gap-4">
               <a
