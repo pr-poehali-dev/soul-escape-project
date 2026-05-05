@@ -33,8 +33,9 @@ export default function BookingSection() {
             </div>
             <div className="mt-8 p-5 bg-[#F5EFE4] rounded-xl border border-[#D9CAAF]">
               <p className="text-[#8B7355] text-sm mb-1">Места ограничены</p>
-              <p className="font-cormorant text-3xl text-[#5C3D2E]">Малая группа</p>
+              <p className="font-cormorant text-3xl text-[#5C3D2E]">До 8 человек</p>
               <p className="text-[#5C3D2E]/70 text-sm font-light mt-1">Индивидуальный подход к каждому участнику</p>
+              <p className="text-[#5C3D2E]/70 text-sm font-light mt-2">Выезд каждый четверг из Ростова-на-Дону</p>
             </div>
           </div>
 
