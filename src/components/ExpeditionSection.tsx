@@ -21,13 +21,13 @@ export default function ExpeditionSection() {
               onClick={() => setActiveTour("2days")}
               className={`px-7 py-2.5 rounded-full text-sm font-medium transition-all ${activeTour === "2days" ? "bg-[#5C3D2E] text-[#F5EFE4]" : "text-[#5C3D2E] hover:bg-[#EDE4D3]"}`}
             >
-              2 дня
+              2 дня — 20 000 ₽
             </button>
             <button
               onClick={() => setActiveTour("3days")}
               className={`px-7 py-2.5 rounded-full text-sm font-medium transition-all ${activeTour === "3days" ? "bg-[#5C3D2E] text-[#F5EFE4]" : "text-[#5C3D2E] hover:bg-[#EDE4D3]"}`}
             >
-              3 дня
+              3 дня — 30 000 ₽
             </button>
           </div>
         </div>
