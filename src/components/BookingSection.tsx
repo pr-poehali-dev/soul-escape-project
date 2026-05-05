@@ -36,6 +36,16 @@ export default function BookingSection() {
               <p className="font-cormorant text-3xl text-[#5C3D2E]">До 8 человек</p>
               <p className="text-[#5C3D2E]/70 text-sm font-light mt-1">Индивидуальный подход к каждому участнику</p>
               <p className="text-[#5C3D2E]/70 text-sm font-light mt-2">Выезд каждый четверг из Ростова-на-Дону</p>
+              <div className="mt-4 pt-4 border-t border-[#D9CAAF]">
+                <p className="text-[#8B7355] text-xs uppercase tracking-widest mb-3">Ближайшие даты</p>
+                <div className="flex flex-wrap gap-2">
+                  {["7 мая", "14 мая", "21 мая", "28 мая", "4 июня"].map((date) => (
+                    <span key={date} className="bg-[#EDE4D3] text-[#5C3D2E] text-xs font-medium px-3 py-1.5 rounded-full border border-[#D9CAAF]">
+                      {date}
+                    </span>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
 
